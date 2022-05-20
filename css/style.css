@@ -130,7 +130,7 @@ img {
 
 
 
- @media screen and (min-width: 481px) and (max-width: 780px) {
+ @media screen  and (max-width: 769px) {
      .steps{
            width: 100%;
        }
@@ -142,17 +142,38 @@ img {
 
 
 
-@media screen and (min-width: 0) and (max-width: 480px) {
+@media screen and (max-width: 481px) {
     .row{
-        width: 100%;
         display: block;
     }
 
-   
+    .lessons .col{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .steps .col{
+        width: 100%;
+        padding-bottom: 100px;
+    }
 
       .container{
           width: 100%;
       }
+
+      .why-us .col-left {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    body{
+        background-color: black;
+    }
+
 }
 
 
